@@ -1,0 +1,63 @@
+google fonts imported*/ @import url('https://fonts.googleapis.com/css?family=Cinzel|Nanum+Gothic');
+
+/* ######### Font families #################
+
+font-family: 'Cinzel', serif; // Headings//
+font-family: 'Nanum Gothic', sans-serif; //body text//
+
+*/
+
+/*
+#8F9D18 : green;
+*/
+
+/*Globals*/
+
+* {
+    line-height: 1.6rem;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+h1,
+h2 {
+    font-family: 'Cinzel', serif;
+    font-size: 1.5rem;
+    color: #ffffff;
+    margin-left: 1.5rem
+}
+
+ul li a {
+    font-family: 'Nanum Gothic', sans-serif;
+    line-height: 2rem;
+    font-size: 2rem;
+
+}
+
+.trans {
+    background-color: #99A718;
+}
+
+.main-section {
+    background-color: #8F9D18;
+}
+
+a.nav-link {
+    font-size: 1.7rem;
+}
+
+footer li {
+    font-size: 3rem;
+    color: white;
+}
+
+@media screen and (max-width:30rem) {
+    */ * {
+        line-height: 1.4rem;
+        font-size: 0.75rem;
+    }
+
+    a.nav-link {
+        font-size: 1.7rem;
+    }
+}
