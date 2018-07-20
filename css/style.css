@@ -34,12 +34,26 @@ ul li a {
 
 }
 
+.bg-success,.btn-success{
+    background-color: #8F9D18 !important; 
+}
+
+.btn-success:hover{
+    opacity:0.7;
+}
+
 .trans {
-    background-color: #99A718;
+    background-color: #ffffff;
+    border: solid #8F9D18 1px;
+    color:  
 }
 
 .main-section {
-    background-color: #8F9D18;
+    background-color: #ffffff;
+}
+
+img{
+    width:  25%;
 }
 
 a.nav-link {
@@ -56,6 +70,10 @@ footer li {
         line-height: 1.4rem;
         font-size: 0.75rem;
     }
+    
+    img{
+    width:  100%;
+}
 
     a.nav-link {
         font-size: 1.7rem;
